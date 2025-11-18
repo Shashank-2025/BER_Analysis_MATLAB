@@ -1,5 +1,5 @@
 % BER Analysis of BPSK, QPSK and 16-QAM in AWGN Channel
-% Author: Vicky (ECE Student)
+% Author: Shashank Bejgam
 
 clc; clear; close all;
 
@@ -54,3 +54,4 @@ xlabel('SNR (dB)');
 ylabel('Bit Error Rate (BER)');
 title('BER Performance of BPSK, QPSK, and 16-QAM in AWGN Channel');
 legend('BPSK', 'QPSK', '16-QAM');
+
